@@ -47,3 +47,56 @@ bottom: 20px;
   border: 2px solid var(--mainColor);
   transform: scale(1.2); 
 }
+
+/* Test imonials*/
+
+.testimonials .carousel-indicators {
+    bottom: -64px;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #888484;
+  width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-indicators .active {
+   background-color: black;
+}
+
+
+.testimonials .carousel-inner .border-secondary-subtle {
+  position: relative;
+}
+
+.testimonials .carousel-item img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: calc(-130px / 2);
+  left: 50%;
+  transform: translateX(-50%); /* مصطفى: مشان تيجي بالنص بالزبط */
+}
+.testimonials span::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 1px;
+  background-color: var(--mainColor);
+  margin: 20px auto;
+}
+
+
+.p-65 {
+  padding: 65px;
+}
+.pt-65 {
+  padding-top: 65px;
+}
+
+.mt-70{
+  margin-top: 70px;
+}
+
+.g-40{
+  gap: 40px;
+}
