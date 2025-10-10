@@ -2,9 +2,7 @@
     --mainColor: #f44336;
     --pcolor: rgb(108,117,125);
 }
-body{
-    height: 7000px;
-}
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
    color: var(--mainColor);
 }
